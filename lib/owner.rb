@@ -7,4 +7,9 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
     @all << self
   end
+  
+  def all
+    @@all
+  end
+  
 end
